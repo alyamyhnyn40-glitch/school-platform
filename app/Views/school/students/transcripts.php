@@ -1,0 +1,6 @@
+<div class="page-head"><div><h1 class="page-title">السجل الأكاديمي</h1><p class="page-sub">ابحث عن الطالب بالاسم أو رقم القيد لعرض نتائجه في كل السنوات ومعدلاته.</p></div></div>
+<form class="card-s mb-3 d-flex gap-2" method="get"><input class="form-control" name="q" value="<?= e($q) ?>" placeholder="اسم الطالب أو رقم القيد" aria-label="بحث" autofocus><button class="btn btn-primary"><i class="bi bi-search"></i> بحث</button></form>
+<?php if ($q !== '' && !$rows): ?><div class="card-s empty-state"><i class="bi bi-person-x"></i>لا يوجد طالب مطابق.</div><?php endif; ?>
+<?php if ($rows): ?><div class="card-s"><div class="table-responsive"><table class="table align-middle mb-0"><thead><tr><th>الطالب</th><th>رقم القيد</th><th>الصف/الشعبة</th><th></th></tr></thead><tbody>
+<?php foreach ($rows as $s): ?><tr><td><?= e($s['full_name']) ?></td><td><?= e($s['student_no'] ?? '') ?></td><td><?= e(trim(($s['grade_name'] ?? '') . ' / ' . ($s['section_name'] ?? ''), ' /')) ?></td><td><a class="btn btn-sm btn-primary" href="<?= url('school/students/' . (int)$s['id'] . '/transcript') ?>"><i class="bi bi-journal-text"></i> السجل</a></td></tr><?php endforeach; ?>
+</tbody></table></div></div><?php endif; ?>

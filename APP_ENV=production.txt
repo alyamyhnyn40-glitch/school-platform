@@ -1,0 +1,13 @@
+APP_ENV=production
+APP_DEBUG=0
+APP_URL=https://yemenedu.wuaze.com
+APP_BASE_PATH=
+APP_TIMEZONE=Asia/Aden
+APP_ENC_KEY=DEVPq7Mr7AcCcZb3mG4ZNrqBKR0q3yhMnQmnJsXs3is=
+SESSION_IDLE_MINUTES=30
+DB_HOST=sql202.infinityfree.com
+DB_PORT=3306
+DB_NAME=if0_43358295_yemen_school_DB
+DB_USER=if0_43358295
+DB_PASS=Tzm4OBzD1i
+SMS_DRIVER=log

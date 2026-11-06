@@ -1,0 +1,10 @@
+<?php $o = $overview; ?>
+<div class="alert alert-secondary small">أرقام وصفية للقراءة فقط. <strong>الارتباط لا يعني السببية</strong>، والتوقعات استرشادية وتظهر عند توفر بيانات كافية.</div>
+<div class="row g-3 mb-3"><div class="col-6 col-lg-3"><div class="card-s"><div class="small text-muted">الحضور (آخر 30 يومًا)</div><div class="fs-3"><?= $o['attendance_rate_30d'] === null ? '—' : e($o['attendance_rate_30d']) . '%' ?></div></div></div>
+ <div class="col-6 col-lg-3"><div class="card-s"><div class="small text-muted">طلاب بتنبيهات مفتوحة</div><div class="fs-3"><?= (int)$o['open_risk_students'] ?></div></div></div>
+ <div class="col-12 col-lg-6"><div class="card-s"><div class="small text-muted">الطلاب حسب الحالة</div><?php foreach ($o['students_by_status'] as $k => $n): ?><span class="badge text-bg-light me-1"><?= e(['active' => 'منتظم', 'withdrawn' => 'منسحب', 'transferred' => 'منقول', 'graduated' => 'متخرّج', 'suspended' => 'موقوف'][$k] ?? $k) ?> <?= (int)$n ?></span><?php endforeach; ?></div></div></div>
+<div class="card-s mb-3"><label class="form-label" for="term">الفصل</label><select class="form-select w-auto" id="term" data-analytics="<?= e(url('api/v1/school/analytics')) ?>"><option value="">—</option><?php foreach ($terms as $t): ?><option value="<?= (int)$t['id'] ?>"><?= e($t['name']) ?></option><?php endforeach; ?></select></div>
+<div class="row g-3"><div class="col-lg-6"><div class="card-s"><h2 class="h6">متوسط المواد ونسبة النجاح</h2><canvas id="chSub" height="220" aria-label="رسم المواد" role="img"></canvas><div id="subEmpty" class="text-muted small"></div></div></div>
+ <div class="col-lg-6"><div class="card-s"><h2 class="h6">الحضور مقابل التحصيل</h2><canvas id="chCorr" height="220" aria-label="رسم الارتباط" role="img"></canvas><div id="corrNote" class="small mt-2"></div></div></div>
+ <div class="col-12"><div class="card-s"><h2 class="h6">اتجاه الشعب عبر الفصول</h2><canvas id="chTrend" height="160" aria-label="رسم الاتجاه" role="img"></canvas><div id="trendNote" class="small text-muted mt-2"></div><div id="proj" class="small mt-1"></div></div></div></div>
+<script src="<?= asset('vendor/chartjs/chart.umd.js') ?>"></script>

@@ -1,0 +1,14 @@
+.print-body{background:#e9ecef;color:#111;padding:1rem}
+.print-toolbar{max-width:210mm;margin:0 auto 1rem;display:flex;gap:1rem;align-items:center}
+.card-a4{width:210mm;min-height:297mm;margin:0 auto 1rem;background:#fff;padding:14mm 14mm;box-shadow:0 2px 8px rgba(0,0,0,.15);page-break-after:always;position:relative}
+.card-a4 h1{font-size:1.5rem;text-align:center;margin:0}.card-a4 .sub{text-align:center;color:#444;margin-bottom:.8rem}
+.card-a4 .frame{border:2px solid #0f766e;padding:6mm;min-height:268mm}
+.card-a4 table{width:100%;border-collapse:collapse;margin:.6rem 0}.card-a4 th,.card-a4 td{border:1px solid #444;padding:.35rem .5rem;text-align:center}.card-a4 th{background:#e6f2f1}
+.card-a4 .meta td{border:0;text-align:right;padding:.15rem .3rem}
+.card-a4 .sign{display:flex;justify-content:space-between;margin-top:18mm;text-align:center}.card-a4 .sign div{width:30%;border-top:1px solid #444;padding-top:.3rem}
+.card-a4 .fail{color:#b91c1c;font-weight:700}.card-a4 .draft{color:#b45309;border:1px dashed #b45309;padding:.2rem .5rem;text-align:center;margin:.4rem 0}
+@page{size:A4;margin:0}
+@media print{.print-body{background:#fff;padding:0}.card-a4{margin:0;box-shadow:none;width:auto;min-height:0;height:296mm;padding:10mm}.no-print{display:none!important}}
+.card-a4.receipt{min-height:148mm}.card-a4.receipt .frame{min-height:130mm}
+.void-stamp{position:absolute;top:35%;left:50%;transform:translate(-50%,-50%) rotate(-18deg);font-size:5rem;font-weight:800;color:rgba(185,28,28,.25);border:.5rem solid rgba(185,28,28,.25);padding:0 1.5rem;pointer-events:none}
+.card-a4 .text-danger{color:#b91c1c}

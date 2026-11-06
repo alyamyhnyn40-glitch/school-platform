@@ -1,0 +1,6 @@
+<div class="card-s mx-auto" style="max-width:520px"><h1 class="h4 text-center">التحقق من شهادة</h1>
+<form method="get" action="<?= url('verify') ?>" class="d-flex gap-2 my-3"><input class="form-control" name="code" dir="ltr" value="<?= e($code) ?>" placeholder="XXXX-XXXX-XXXX" aria-label="رمز التحقق" maxlength="14" required><button class="btn btn-primary">تحقق</button></form>
+<?php if (!empty($checked)): if (!$result): ?><div class="alert alert-danger">لا توجد شهادة بهذا الرمز.</div>
+<?php elseif (!$result['valid']): ?><div class="alert alert-danger"><strong>شهادة مسحوبة.</strong> سُحبت بتاريخ <?= e(substr((string)$result['revoked_at'], 0, 10)) ?>.</div>
+<?php else: ?><div class="alert alert-success"><i class="bi bi-patch-check"></i> شهادة صحيحة.</div><dl class="row mb-0"><dt class="col-4">الجهة</dt><dd class="col-8"><?= e($result['school']) ?></dd><dt class="col-4">الحامل</dt><dd class="col-8"><?= e($result['holder']) ?></dd><dt class="col-4">الشهادة</dt><dd class="col-8"><?= e($result['title']) ?> (<?= e($result['kind']) ?>)</dd><dt class="col-4">تاريخ الإصدار</dt><dd class="col-8"><?= e($result['issued_on']) ?></dd></dl><?php endif; endif; ?>
+<p class="small text-muted mt-3 mb-0">يُعرض الاسم مختصرًا حمايةً للخصوصية.</p></div>

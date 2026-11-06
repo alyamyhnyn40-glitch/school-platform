@@ -1,0 +1,9 @@
+<?php use App\Services\CounselingService as C; ?>
+<div class="row g-3"><div class="col-lg-4"><form class="card-s" method="post" action="<?= url('api/v1/school/counseling') ?>" data-ajax data-redirect novalidate><?= csrf_field() ?><h2 class="h6">حالة جديدة</h2>
+ <div class="mb-2"><label class="form-label" for="sn">رقم الطالب</label><input class="form-control" id="sn" name="student_no" dir="ltr" required></div>
+ <div class="mb-2"><label class="form-label" for="k">النوع</label><select class="form-select" id="k" name="kind"><?php foreach (C::KINDS as $k => $l): ?><option value="<?= $k ?>"><?= e($l) ?></option><?php endforeach; ?></select></div>
+ <div class="mb-2"><label class="form-label" for="t">العنوان</label><input class="form-control" id="t" name="title" required></div>
+ <div class="mb-2"><label class="form-label" for="nt">ملاحظة افتتاحية (سرّية ومشفّرة)</label><textarea class="form-control" id="nt" name="note" rows="3"></textarea></div><button class="btn btn-primary w-100">فتح الحالة</button></form></div>
+<div class="col-lg-8"><div class="card-s"><div class="d-flex gap-2 mb-2"><?php foreach (['' => 'الكل'] + C::STATUSES as $k => $l): ?><a class="badge text-bg-<?= $status === (string)$k ? 'primary' : 'secondary' ?> text-decoration-none" href="<?= url('school/counseling?status=' . $k) ?>"><?= e($l) ?></a><?php endforeach; ?></div>
+<?php if (!$cases): ?><div class="empty-state">لا توجد حالات.</div><?php endif; ?>
+<?php foreach ($cases as $c): ?><div class="border-bottom py-2"><a href="<?= url('school/counseling/' . (int)$c['id']) ?>"><?= e($c['title']) ?></a> <span class="badge text-bg-light"><?= e(C::KINDS[$c['kind']] ?? $c['kind']) ?></span> <span class="badge text-bg-info"><?= e(C::STATUSES[$c['status']] ?? $c['status']) ?></span><div class="small text-muted"><?= e($c['full_name']) ?> · المرشد: <?= e($c['counselor']) ?> · <?= (int)$c['notes'] ?> ملاحظة</div></div><?php endforeach; ?></div></div></div>

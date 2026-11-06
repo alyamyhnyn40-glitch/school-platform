@@ -1,0 +1,1721 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.0.3 Chrome/140.0.7339.249 Electron/38.7.0 Safari/537.36" version="29.0.3" pages="3">
+  <diagram id="chen0" name="المخطط المفاهيمي — الأكاديمي والطلاب والدرجات">
+    <mxGraphModel dx="1713" dy="1043" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2720" pageHeight="2480" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a1176" value="مخطط الكيانات والعلاقات (ER) — النواة الأكاديمية لمنصة «مدرستي»" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;text;fontSize=22;fontStyle=1;align=right;fontColor=#0f766e;" parent="1" vertex="1">
+          <mxGeometry x="1000" y="15" width="1700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a2176" value="المدرسة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="2370" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3176" value="السنة الدراسية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="1870" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a4176" value="الفصل الدراسي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=ext;double=1;rounded=0;fillColor=#e0e7ff;strokeColor=#3730a3;strokeWidth=1.5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="1315" y="208" width="170" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="a5176" value="المرحلة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="2370" y="600" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6176" value="الصف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="2370" y="1000" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7176" value="المادة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="1000" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8176" value="الشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="1460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9176" value="المعلم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="920" y="1000" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a10176" value="الطالب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="680" y="1460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a11176" value="ولي الأمر" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1460" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a12176" value="التقييم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="920" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a13176" value="نظام الدرجات" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="380" y="560" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a14176" value="السجل الأكاديمي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=ext;double=1;rounded=0;fillColor=#e0e7ff;strokeColor=#3730a3;strokeWidth=1.5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="205" y="998" width="170" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="a15176" value="تضم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="2125" y="200" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a16176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a2176" target="a15176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a17176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a15176" target="a3176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a18176" value="تتكوّن من" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;double=1;fillColor=#fde68a;strokeColor=#92400e;strokeWidth=1.5;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="1595" y="197" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="a19176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a3176" target="a18176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a20176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a18176" target="a4176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a21176" value="تشمل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="2375" y="790" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a22176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a5176" target="a21176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a23176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a21176" target="a6176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a24176" value="يُرفَّع إلى" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="2545" y="1230" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a25176" value="1 (الحالي)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;entryX=0.5;entryY=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="a6176" target="a24176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a26176" value="1 (التالي)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;exitX=0;exitY=0.5;entryX=0.5;entryY=1;edgeStyle=orthogonalEdgeStyle;" parent="1" source="a24176" target="a6176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a27176" value="الخطة الدراسية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="1865" y="642" width="170" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="a28176" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a3176" target="a27176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a29176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a27176" target="a6176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a30176" value="P" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a27176" target="a7176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a31176" value="تتفرّع إلى" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="2025" y="1450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a32176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a6176" target="a31176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a33176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a31176" target="a8176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a34176" value="تنعقد في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="2275" y="1730" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a35176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a3176" target="a34176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a36176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a34176" target="a8176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a37176" value="تُدرَّس في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="1525" y="1220" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a38176" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a7176" target="a37176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a39176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a37176" target="a8176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a40176" value="تجميع: «مادة الشعبة» (Aggregation)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;arcSize=4;fillColor=none;dashed=1;strokeColor=#7c3aed;strokeWidth=1.5;verticalAlign=top;align=left;spacingLeft=6;fontSize=11;fontColor=#7c3aed;fontStyle=2;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="970" width="340" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="a41176" value="يُدرِّس" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="925" y="1220" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a42176" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a9176" target="a41176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a43176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a41176" target="a40176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a44176" value="يُقيِّم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="1225" y="750" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a45176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a12176" target="a44176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a46176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a44176" target="a40176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a47176" value="يُعقد في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="370" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a48176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a12176" target="a47176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a49176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a47176" target="a4176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a50176" value="يتبع" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="655" y="550" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a51176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a12176" target="a50176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a52176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a50176" target="a13176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a53176" value="يُسجَّل في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="1105" y="1450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a54176" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a10176" target="a53176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a55176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a53176" target="a8176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a56176" value="يحصل على" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="685" y="990" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a57176" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a10176" target="a56176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a58176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a56176" target="a12176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a59176" value="وليّ أمر" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="405" y="1450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a60176" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a11176" target="a59176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a61176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a59176" target="a10176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a62176" value="يُوثِّق" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;double=1;fillColor=#fde68a;strokeColor=#92400e;strokeWidth=1.5;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="400" y="1207" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="a63176" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a10176" target="a62176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a64176" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a62176" target="a14176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a65176" value="يختار" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="1175" y="1730" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a66176" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a10176" target="a65176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a67176" value="N (اختيارية)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" parent="1" source="a65176" target="a40176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a68176" value="الرمز" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="2450" y="108" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a69176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a68176" target="a2176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a70176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2560" y="178" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a71176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a70176" target="a2176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a72176" value="الشعار" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2560" y="258" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a73176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a72176" target="a2176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a74176" value="نوع المدرسة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2450" y="328" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a75176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a74176" target="a2176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a76176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="1830" y="108" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a77176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a76176" target="a3176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a78176" value="البداية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1960" y="108" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a79176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a78176" target="a3176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a80176" value="النهاية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="138" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a81176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a80176" target="a3176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82176" value="الحالة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1890" y="323" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a83176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a82176" target="a3176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a84176" value="رقم الفصل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;dashed=1;dashPattern=2 2;" parent="1" vertex="1">
+          <mxGeometry x="1275" y="108" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a85176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a84176" target="a4176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a86176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1420" y="108" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a87176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a86176" target="a4176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a88176" value="الفترة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="158" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a89176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a88176" target="a4176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a90176" value="مقفل الدرجات" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1140" y="248" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a91176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a90176" target="a4176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a92176" value="ختامي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1280" y="318" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a93176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a92176" target="a4176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a94176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="2550" y="548" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a95176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a94176" target="a5176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a96176" value="الترتيب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2550" y="658" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a97176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a96176" target="a5176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a98176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="2510" y="918" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a99176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a98176" target="a6176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a100176" value="الترتيب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="2540" y="1088" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a101176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a100176" target="a6176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a102176" value="الرمز" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="1460" y="908" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a103176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a102176" target="a7176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a104176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1620" y="908" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a105176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a104176" target="a7176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a106176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1500" y="1578" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a107176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a106176" target="a8176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a108176" value="السعة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1640" y="1578" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a109176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a108176" target="a8176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a110176" value="النوع" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1770" y="1548" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a111176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a110176" target="a8176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a112176" value="عدد الطلاب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1355" y="1568" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a113176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a112176" target="a8176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a114176" value="الرقم الوظيفي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="1020" y="908" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a115176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a114176" target="a9176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a116176" value="التخصص" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="880" y="908" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a117176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a116176" target="a9176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a118176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1090" y="1058" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a119176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a118176" target="a9176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a120176" value="رقم القيد" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="590" y="1573" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a121176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a120176" target="a10176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a122176" value="الاسم الرباعي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1593" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a123176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a122176" target="a10176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a124176" value="تاريخ الميلاد" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="870" y="1573" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a125176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a124176" target="a10176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a126176" value="العمر" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="865" y="1648" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a127176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a126176" target="a10176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a128176" value="الهوية (مشفّرة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="730" y="1668" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a129176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a128176" target="a10176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a130176" value="المعدل التراكمي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="635" y="1358" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a131176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a130176" target="a10176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a132176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1578" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a133176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a132176" target="a11176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a134176" value="أرقام التواصل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="205" y="1581" width="130" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="a135176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a134176" target="a11176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a136176" value="البريد" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1388" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a137176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a136176" target="a11176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a138176" value="العنوان" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="880" y="458" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a139176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a138176" target="a12176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a140176" value="الدرجة العظمى" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1030" y="458" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a141176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a140176" target="a12176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a142176" value="النوع" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="508" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a143176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a142176" target="a12176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a144176" value="الحالة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1130" y="628" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a145176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a144176" target="a12176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a146176" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="340" y="458" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a147176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a146176" target="a13176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a148176" value="درجة النجاح" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="480" y="458" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a149176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a148176" target="a13176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a150176" value="أوزان الأنواع" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="215" y="526" width="130" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="a151176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a150176" target="a13176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a152176" value="سلّم التقديرات" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="215" y="616" width="130" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="a153176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a152176" target="a13176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a154176" value="طريقة المعدل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="400" y="678" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a155176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a154176" target="a13176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a156176" value="الفترة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;dashed=1;dashPattern=2 2;" parent="1" vertex="1">
+          <mxGeometry x="115" y="898" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a157176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a156176" target="a14176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a158176" value="المعدل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="270" y="888" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a159176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a158176" target="a14176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a160176" value="التقدير" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="40" y="968" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a161176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a160176" target="a14176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a162176" value="GPA" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="35" y="1048" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a163176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a162176" target="a14176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a164176" value="الترتيب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="120" y="1118" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a165176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a164176" target="a14176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a166176" value="النتيجة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="270" y="1123" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a167176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a166176" target="a14176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a168176" value="الفصل (أو الكل)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="608" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a169176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a168176" target="a27176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a170176" value="الحصص" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1660" y="678" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a171176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a170176" target="a27176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a172176" value="الساعات المعتمدة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1670" y="748" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a173176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a172176" target="a27176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a174176" value="اختيارية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1890" y="778" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a175176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a174176" target="a27176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a176176" value="الحصص" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1810" y="1198" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a177176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a176176" target="a37176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a178176" value="الفصل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1810" y="1278" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a179176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a178176" target="a37176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a180176" value="السنة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="1368" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a181176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a180176" target="a53176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a182176" value="رقم الجلوس" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="1368" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a183176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a182176" target="a53176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a184176" value="الحالة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1040" y="1568" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a185176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a184176" target="a53176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a186176" value="تاريخ التسجيل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="1190" y="1568" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a187176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a186176" target="a53176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a188176" value="الدرجة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="530" y="958" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a189176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a188176" target="a56176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a190176" value="غائب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="530" y="1028" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a191176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a190176" target="a56176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a192176" value="ملاحظة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="550" y="1098" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a193176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a192176" target="a56176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a194176" value="صلة القرابة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="360" y="1368" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a195176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a194176" target="a59176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a196176" value="أساسي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="490" y="1368" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a197176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a196176" target="a59176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a198176" value="قيد الحضانة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="420" y="1573" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a199176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a198176" target="a59176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a200176" value="أساسي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="790" y="1298" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a201176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" parent="1" source="a200176" target="a41176" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a202176" value="&lt;b&gt;مفتاح الرموز (ترميز Chen)&lt;/b&gt;" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="20" y="1970" width="420" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="a203176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2005" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a204176" value="كيان قوي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2007" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a205176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=ext;double=1;rounded=0;fillColor=#e0e7ff;strokeColor=#3730a3;strokeWidth=1.5;fontStyle=1;fontSize=14;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2047" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a206176" value="كيان ضعيف (يعتمد على مالكه)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2049" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a207176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2089" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a208176" value="علاقة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2091" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a209176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;double=1;fillColor=#fde68a;strokeColor=#92400e;strokeWidth=1.5;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2131" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a210176" value="علاقة معرِّفة (لكيان ضعيف)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2133" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a211176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2173" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a212176" value="سمة مفتاح (مسطّرة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2175" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a213176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;dashed=1;dashPattern=2 2;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2215" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a214176" value="مفتاح جزئي لكيان ضعيف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2217" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a215176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2257" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a216176" value="سمة متعددة القيم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2259" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a217176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2299" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a218176" value="سمة مشتقة (محسوبة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2301" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a219176" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="295" y="2341" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a220176" value="سمة علاقة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="40" y="2343" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a221176" value="خط مفرد = مشاركة جزئية · خط مزدوج = مشاركة كلية (إلزامية)&lt;br&gt;1 / N / M على الخط = نوع العلاقة (واحد/متعدد)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" parent="1" vertex="1">
+          <mxGeometry x="30" y="2402" width="400" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="chen1" name="المخطط المفاهيمي — المالية والصلاحيات والتواصل">
+    <mxGraphModel dx="2500" dy="1800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2500" pageHeight="1800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="a1507" value="مخطط الكيانات والعلاقات (ER) — المالية والمستخدمون والصلاحيات والتواصل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;text;fontSize=22;fontStyle=1;align=right;fontColor=#0f766e;" vertex="1" parent="1">
+          <mxGeometry x="900" y="15" width="1580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="a2507" value="المدرسة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a3507" value="خطة الاشتراك" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a4507" value="المستخدم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a5507" value="الدور" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a6507" value="الصلاحية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="1050" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a7507" value="الطالب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="820" y="590" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a8507" value="ولي الأمر" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="820" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9507" value="هيكل الرسوم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="220" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a10507" value="بند الرسوم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=ext;double=1;rounded=0;fillColor=#e0e7ff;strokeColor=#3730a3;strokeWidth=1.5;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="215" y="528" width="170" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="a11507" value="حساب رسوم الطالب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="320" y="970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a12507" value="القسط" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=ext;double=1;rounded=0;fillColor=#e0e7ff;strokeColor=#3730a3;strokeWidth=1.5;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="315" y="1418" width="170" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="a13507" value="الدفعة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1420" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a14507" value="السند" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=ext;double=1;rounded=0;fillColor=#e0e7ff;strokeColor=#3730a3;strokeWidth=1.5;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1415" y="1418" width="170" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="a15507" value="الإعلان" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1090" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a16507" value="الرسالة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="1020" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a17507" value="تشترك في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="130" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a18507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a2507" target="a17507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a19507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a17507" target="a3507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a20507" value="البداية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1845" y="53" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a21507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a20507" target="a17507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a22507" value="النهاية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1985" y="53" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a23507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a22507" target="a17507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a24507" value="المبلغ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="243" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a25507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a24507" target="a17507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a26507" value="يحمل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1900" y="580" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a27507" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a4507" target="a26507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a28507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a26507" target="a5507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a29507" value="يمنح" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2175" y="810" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a30507" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a5507" target="a29507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a31507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a29507" target="a6507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a32507" value="صلاحية خاصة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1915" y="960" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a33507" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a4507" target="a32507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a34507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a32507" target="a6507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a35507" value="الأثر: منح/حجب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1890" y="1078" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a36507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a35507" target="a32507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a37507" value="منحها" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2040" y="1073" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a38507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a37507" target="a32507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a39507" value="يملك حساب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="580" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a40507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a4507" target="a39507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a41507" value="0..1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a39507" target="a7507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a42507" value="يملك حساب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1225" y="130" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a43507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a4507" target="a42507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a44507" value="0..1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a42507" target="a8507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a45507" value="وليّ أمر" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="825" y="360" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a46507" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a8507" target="a45507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a47507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a45507" target="a7507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a48507" value="يتكوّن من" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;double=1;fillColor=#fde68a;strokeColor=#92400e;strokeWidth=1.5;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="220" y="317" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="a49507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a9507" target="a48507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a50507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a48507" target="a10507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a51507" value="يُلزَم بـ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="575" y="780" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a52507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a7507" target="a51507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a53507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a51507" target="a11507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a54507" value="وفق" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="225" y="760" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a55507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a11507" target="a54507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a56507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a54507" target="a9507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a57507" value="يُقسَّط إلى" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;double=1;fillColor=#fde68a;strokeColor=#92400e;strokeWidth=1.5;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="320" y="1187" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="a58507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a11507" target="a57507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a59507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a57507" target="a12507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a60507" value="تُوزَّع على" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="625" y="1410" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a61507" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a13507" target="a60507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a62507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a60507" target="a12507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a63507" value="المبلغ المخصّص" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1528" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a64507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a63507" target="a60507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a65507" value="يُوثَّق بـ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;double=1;fillColor=#fde68a;strokeColor=#92400e;strokeWidth=1.5;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1407" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="a66507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a13507" target="a65507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a67507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a65507" target="a14507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a68507" value="يُسدِّد" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="925" y="1190" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a69507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a7507" target="a68507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a70507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a68507" target="a13507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a71507" value="يُرسِل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1375" y="790" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a72507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a4507" target="a71507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a73507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a71507" target="a16507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a74507" value="يستقبل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1075" y="790" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a75507" value="M" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a4507" target="a74507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a76507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a74507" target="a16507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a77507" value="قُرئت في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="940" y="808" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a78507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a77507" target="a74507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a79507" value="يَنشُر" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="1625" y="810" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="a80507" value="1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#334155;strokeWidth=1.2;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a4507" target="a79507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a81507" value="N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;shape=link;width=4;strokeColor=#334155;fontSize=13;fontStyle=1;labelBackgroundColor=#ffffff;" edge="1" parent="1" source="a79507" target="a15507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a82507" value="الرمز" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="2270" y="48" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a83507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a82507" target="a2507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a84507" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="118" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a85507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a84507" target="a2507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a86507" value="الحالة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2380" y="198" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a87507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a86507" target="a2507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a88507" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="1580" y="48" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a89507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a88507" target="a3507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a90507" value="أقصى طلاب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="48" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a91507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a90507" target="a3507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a92507" value="الوحدات" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="246" width="130" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="a93507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a92507" target="a3507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a94507" value="المعرّف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="488" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a95507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a94507" target="a4507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a96507" value="البريد/الهاتف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1470" y="538" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a97507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a96507" target="a4507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a98507" value="كلمة المرور (مجزّأة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="628" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a99507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a98507" target="a4507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a100507" value="النوع" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1800" y="698" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a101507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a100507" target="a4507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a102507" value="الصلاحيات الفعلية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1575" y="713" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a103507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a102507" target="a4507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a104507" value="الرمز" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="2320" y="538" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a105507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a104507" target="a5507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a106507" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2330" y="628" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a107507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a106507" target="a5507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a108507" value="الرمز" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="998" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a109507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a108507" target="a6507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a110507" value="الوحدة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2350" y="1108" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a111507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a110507" target="a6507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a112507" value="الوصف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2190" y="1168" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a113507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a112507" target="a6507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a114507" value="رقم القيد" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="690" y="538" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a115507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a114507" target="a7507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a116507" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="680" y="628" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a117507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a116507" target="a7507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a118507" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="690" y="88" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a119507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a118507" target="a8507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a120507" value="الهواتف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="665" y="176" width="130" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="a121507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a120507" target="a8507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a122507" value="الاسم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="140" y="48" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a123507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a122507" target="a9507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a124507" value="العملة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="290" y="43" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a125507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a124507" target="a9507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a126507" value="عدد الأقساط" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="420" y="88" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a127507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a126507" target="a9507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a128507" value="اسم البند" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;dashed=1;dashPattern=2 2;" vertex="1" parent="1">
+          <mxGeometry x="55" y="498" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a129507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a128507" target="a10507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a130507" value="المبلغ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="60" y="588" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a131507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a130507" target="a10507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a132507" value="الإجمالي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="140" y="938" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a133507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a132507" target="a11507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a134507" value="الخصم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1028" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a135507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a134507" target="a11507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a136507" value="المتبقي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="255" y="1093" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a137507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a136507" target="a11507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a138507" value="رقم القسط" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;dashed=1;dashPattern=2 2;" vertex="1" parent="1">
+          <mxGeometry x="155" y="1388" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a139507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a138507" target="a12507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a140507" value="الاستحقاق" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="160" y="1468" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a141507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a140507" target="a12507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a142507" value="المبلغ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="300" y="1533" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a143507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a142507" target="a12507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a144507" value="المسدَّد" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="435" y="1528" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a145507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a144507" target="a12507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a146507" value="المبلغ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1538" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a147507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a146507" target="a13507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a148507" value="العملة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1538" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a149507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a148507" target="a13507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a150507" value="الطريقة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="760" y="1498" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a151507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a150507" target="a13507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a152507" value="التاريخ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1140" y="1508" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a153507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a152507" target="a13507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a154507" value="رقم السند" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;dashed=1;dashPattern=2 2;" vertex="1" parent="1">
+          <mxGeometry x="1605" y="1388" width="130" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a155507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a154507" target="a14507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a156507" value="التاريخ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1610" y="1468" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a157507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a156507" target="a14507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a158507" value="العنوان" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="1068" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a159507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a158507" target="a15507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a160507" value="الجمهور" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1455" y="1141" width="130" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="a161507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a160507" target="a15507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a162507" value="القنوات" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1635" y="1201" width="130" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="a163507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a162507" target="a15507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a164507" value="النص" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="1133" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a165507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a164507" target="a16507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a166507" value="التاريخ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1133" width="120" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="a167507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;endArrow=none;strokeColor=#94a3b8;" edge="1" parent="1" source="a166507" target="a16507">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a168507" value="&lt;b&gt;مفتاح الرموز (ترميز Chen)&lt;/b&gt;" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2060" y="1310" width="420" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="a169507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=0;fillColor=#dbeafe;strokeColor=#1e40af;strokeWidth=2;fontStyle=1;fontSize=14;fontColor=#0f172a;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1345" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a170507" value="كيان قوي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1347" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a171507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=ext;double=1;rounded=0;fillColor=#e0e7ff;strokeColor=#3730a3;strokeWidth=1.5;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1387" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a172507" value="كيان ضعيف (يعتمد على مالكه)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1389" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a173507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;fillColor=#fef3c7;strokeColor=#b45309;strokeWidth=2;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1429" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a174507" value="علاقة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1431" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a175507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=rhombus;double=1;fillColor=#fde68a;strokeColor=#92400e;strokeWidth=1.5;fontSize=12;fontStyle=1;perimeter=rhombusPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1471" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a176507" value="علاقة معرِّفة (لكيان ضعيف)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1473" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a177507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1513" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a178507" value="سمة مفتاح (مسطّرة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1515" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a179507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;fontStyle=4;dashed=1;dashPattern=2 2;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1555" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a180507" value="مفتاح جزئي لكيان ضعيف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1557" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a181507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;shape=doubleEllipse;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1597" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a182507" value="سمة متعددة القيم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1599" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a183507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;dashed=1;fillColor=#ffffff;strokeColor=#475569;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1639" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a184507" value="سمة مشتقة (محسوبة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1641" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a185507" value="" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;ellipse;fillColor=#fff7ed;strokeColor=#c2410c;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="2335" y="1681" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="a186507" value="سمة علاقة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="1683" width="240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="a187507" value="خط مفرد = مشاركة جزئية · خط مزدوج = مشاركة كلية (إلزامية)&lt;br&gt;1 / N / M على الخط = نوع العلاقة (واحد/متعدد)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;rounded=1;fillColor=#f8fafc;strokeColor=#cbd5e1;fontSize=11;align=right;verticalAlign=top;spacingRight=10;spacingTop=6;" vertex="1" parent="1">
+          <mxGeometry x="2070" y="1742" width="400" height="34" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="chen2" name="جدول العلاقات وأنواعها">
+    <mxGraphModel dx="1900" dy="1316" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1316" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="p1541" value="جدول العلاقات: الأطراف ونوع العلاقة والمشاركة والسمات والجدول الفعلي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;text;fontSize=22;fontStyle=1;align=right;fontColor=#0f766e;" vertex="1" parent="1">
+          <mxGeometry x="300" y="15" width="1580" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p2541" value="العلاقة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=#ffffff;fontStyle=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="70" width="260" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p3541" value="الكيانات" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=#ffffff;fontStyle=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="70" width="360" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p4541" value="النوع" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=#ffffff;fontStyle=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="70" width="110" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p5541" value="المشاركة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=#ffffff;fontStyle=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="950" y="70" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p6541" value="سمات العلاقة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=#ffffff;fontStyle=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="550" y="70" width="400" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p7541" value="الجدول في القاعدة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#0f766e;strokeColor=#0f766e;fontColor=#ffffff;fontStyle=1;fontSize=13;align=center;" vertex="1" parent="1">
+          <mxGeometry x="220" y="70" width="330" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="p8541" value="تضم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="112" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p9541" value="المدرسة — السنة الدراسية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="112" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p10541" value="1:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="112" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p11541" value="كلية من جهة السنة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="112" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p12541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="112" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p13541" value="academic_years.school_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="112" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p14541" value="تتكوّن من (معرِّفة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="158" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p15541" value="السنة — الفصل الدراسي (ضعيف)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="158" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p16541" value="1:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="158" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p17541" value="كلية للفصل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="158" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p18541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="158" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p19541" value="terms.academic_year_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="158" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p20541" value="تشمل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="204" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p21541" value="المرحلة — الصف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="204" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p22541" value="1:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="204" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p23541" value="كلية للصف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="204" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p24541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="204" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p25541" value="grade_levels.stage_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="204" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p26541" value="يُرفَّع إلى (متكررة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="250" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p27541" value="الصف — الصف" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="250" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p28541" value="1:1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="250" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p29541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="250" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p30541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="250" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p31541" value="grade_levels.next_grade_level_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="250" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p32541" value="الخطة الدراسية (ثلاثية)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="296" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p33541" value="السنة × الصف × المادة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="296" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p34541" value="M:N:P" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="296" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p35541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="296" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p36541" value="الفصل، الحصص، الساعات، اختيارية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="296" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p37541" value="study_plans" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="296" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p38541" value="تتفرّع إلى" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="342" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p39541" value="الصف — الشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="342" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p40541" value="1:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="342" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p41541" value="كلية للشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="342" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p42541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="342" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p43541" value="sections.grade_level_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="342" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p44541" value="تنعقد في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="388" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p45541" value="السنة — الشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="388" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p46541" value="1:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="388" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p47541" value="كلية للشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="388" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p48541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="388" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p49541" value="sections.academic_year_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="388" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p50541" value="تُدرَّس في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="434" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p51541" value="المادة — الشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="434" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p52541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="434" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p53541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="434" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p54541" value="الحصص، الفصل، الساعات" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="434" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p55541" value="section_subjects" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="434" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p56541" value="يُدرِّس" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="480" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p57541" value="المعلم — مادة الشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="480" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p58541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="480" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p59541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="480" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p60541" value="أساسي" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="480" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p61541" value="teacher_assignments" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="480" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p62541" value="يُقيِّم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="526" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p63541" value="التقييم — مادة الشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="526" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p64541" value="N:1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="526" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p65541" value="كلية للتقييم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="526" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p66541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="526" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p67541" value="assessments.section_subject_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="526" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p68541" value="يُعقد في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="572" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p69541" value="التقييم — الفصل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="572" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p70541" value="N:1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="572" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p71541" value="كلية للتقييم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="572" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p72541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="572" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p73541" value="assessments.term_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="572" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p74541" value="يُسجَّل في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="618" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p75541" value="الطالب — الشعبة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="618" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p76541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="618" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p77541" value="كلية للطالب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="618" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p78541" value="السنة، رقم الجلوس، الحالة، التاريخ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="618" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p79541" value="student_enrollments" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="618" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p80541" value="يحصل على" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="664" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p81541" value="الطالب (التسجيل) — التقييم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="664" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p82541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="664" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p83541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="664" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p84541" value="الدرجة، غائب، ملاحظة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="664" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p85541" value="grades" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="664" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p86541" value="يختار" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="710" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p87541" value="الطالب — مادة اختيارية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="710" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p88541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="710" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p89541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="710" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p90541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="710" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p91541" value="student_electives" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="710" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p92541" value="وليّ أمر" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="756" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p93541" value="ولي الأمر — الطالب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="756" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p94541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="756" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p95541" value="كلية للطرفين" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="756" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p96541" value="القرابة، أساسي، قيد الحضانة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="756" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p97541" value="student_guardians" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="756" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p98541" value="يُوثِّق (معرِّفة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="802" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p99541" value="الطالب — السجل الأكاديمي (ضعيف)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="802" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p100541" value="1:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="802" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p101541" value="كلية للسجل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="802" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p102541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="802" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p103541" value="academic_records" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="802" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p104541" value="تشترك في" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="848" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p105541" value="المدرسة — خطة الاشتراك" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="848" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p106541" value="N:1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="848" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p107541" value="كلية للمدرسة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="848" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p108541" value="البداية، النهاية، المبلغ" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="848" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p109541" value="school_subscriptions" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="848" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p110541" value="يحمل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="894" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p111541" value="المستخدم — الدور" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="894" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p112541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="894" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p113541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="894" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p114541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="894" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p115541" value="user_roles" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="894" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p116541" value="يمنح" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="940" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p117541" value="الدور — الصلاحية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="940" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p118541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="940" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p119541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="940" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p120541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="940" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p121541" value="role_permissions" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="940" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p122541" value="صلاحية خاصة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="986" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p123541" value="المستخدم — الصلاحية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="986" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p124541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="986" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p125541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="986" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p126541" value="الأثر (منح/حجب)، المانح" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="986" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p127541" value="user_permissions" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="986" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p128541" value="يُلزَم بـ / وفق" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1032" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p129541" value="الطالب — حساب الرسوم — هيكل الرسوم" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1032" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p130541" value="1:N / N:1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1032" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p131541" value="كلية للحساب" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1032" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p132541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1032" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p133541" value="student_fees" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1032" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p134541" value="يُقسَّط إلى (معرِّفة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1078" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p135541" value="حساب الرسوم — القسط (ضعيف)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1078" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p136541" value="1:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1078" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p137541" value="كلية للقسط" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1078" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p138541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1078" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p139541" value="installments" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1078" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p140541" value="تُوزَّع على" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1124" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p141541" value="الدفعة — القسط" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1124" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p142541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1124" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p143541" value="كلية للدفعة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1124" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p144541" value="المبلغ المخصّص" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1124" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p145541" value="payment_allocations" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1124" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p146541" value="يُوثَّق بـ (معرِّفة)" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1170" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p147541" value="الدفعة — السند" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1170" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p148541" value="1:1" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1170" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p149541" value="كلية للسند" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1170" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p150541" value="—" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1170" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p151541" value="receipts.payment_id" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#f1f5f9;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1170" width="330" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p152541" value="يستقبل" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1620" y="1216" width="260" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p153541" value="المستخدم — الرسالة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1216" width="360" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p154541" value="M:N" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=center;spacingRight=8;spacingLeft=8;fontColor=#b45309;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="1150" y="1216" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p155541" value="جزئية" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="950" y="1216" width="200" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p156541" value="وقت القراءة" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=right;spacingRight=8;spacingLeft=8;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1216" width="400" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="p157541" value="message_recipients" style="fontFamily=Tahoma;html=1;whiteSpace=wrap;fillColor=#ffffff;strokeColor=#cbd5e1;fontSize=12;align=left;spacingRight=8;spacingLeft=8;fontFamily=Courier New;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1216" width="330" height="46" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

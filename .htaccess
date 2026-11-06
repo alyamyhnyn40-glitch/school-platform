@@ -1,0 +1,13 @@
+# بديل لاستضافة cPanel عند تعذر ضبط الجذر على public: يوجّه كل شيء إلى public ويحجب باقي المجلدات
+Options -Indexes
+RewriteEngine On
+RewriteRule ^(app|database|storage|vendor|install|tests|docs|lang|bin)(/|$) - [F,L]
+RewriteRule ^\.env - [F,L]
+RewriteRule ^$ public/index.php [L]
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+RewriteRule ^(.*)$ public/$1 [L]
+RewriteCond %{REQUEST_URI} !^/public/
+RewriteRule ^ public/index.php [L]
+
+

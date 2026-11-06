@@ -1,0 +1,178 @@
+cd C:\wamp64\www\school-platform
+ php -S localhost:8080 -t public
+
+
+YEMEN_EDU
+
+
+pcul ifbr qfda gmop
+
+
+yemen_school_DB
+
+
+
+YEMEN_EDU
+oplq estg hmta gltu
+
+
+
+باختصار:
+
+فك ضغط المشروع داخل:
+C:\wamp64\www\school-platform
+
+تأكد أن الملف موجود:
+C:\wamp64\www\school-platform\public\index.php
+
+افتح phpMyAdmin وأنشئ قاعدة بيانات:
+yemen_school_db
+
+استورد الملف:
+database/ready/madrasati-ready.sql
+
+انسخ:
+database/ready/.env.ready
+
+
+إلى جذر المشروع باسم:
+
+.env
+
+
+أعد تشغيل WAMP.
+
+افتح الرابط:
+
+http://localhost/school-platform/public/
+
+
+إذا ظهر Not Found فالمشروع ليس في المكان الصحيح.
+
+اذهب إلى:
+
+C:\wamp64\www
+
+
+وتأكد أن اسم المجلد هو:
+
+school-platform
+
+
+وليس:
+
+school-platform-v0.13.0
+
+
+أو:
+
+school-platform\school-platform
+
+
+إذا استمر الخطأ، أرسل صورة لمحتويات مجلد:
+
+C:\wamp64\www
+
+
+وسأحدد المسار الصحيح مباشرة.
+
+Building a shared lookup (governorates/cities/nationalities/jobs) with select helpers, then swapping the text boxes for lists.
+
+Dev server and database were stopped by the environment restart; bringing both back.
+
+Writing the S3 client, the per-school backup service, migration, and controller.
+
+Now the routes, backup page, JS, and sidebar entry.
+
+Now tests for the backup service (scoping, isolation, encryption, S3 signing vector, mock S3 upload, schedule).
+
+Writing the auto-updater, lock self-heal, and installer upgrades (create DB, existing-install recovery, optional demo data).
+
+Fresh package unzipped and redirecting to `/install`. Driving the installer in a browser with the demo option.
+
+Ready database loads and the lock self-heals. Now logging in with each documented demo account.
+
+Columns match. Rebuilding the ready database with the fix, then re-packaging and re-testing guardian login.
+
+أنجزتُ كل البنود وأرسلتُ لك الإصدار 0.13.0 ومعه قاعدة جاهزة ببيانات تجريبية. نجحت اختبارات PHPUnit كلها (383 اختبارًا)، وجرّبتُ الحزمة نفسها على خادم PHP محلي وMariaDB، لا على WAMP/Apache فعلي. لم أجرّب أي مزود SMS أو واتساب أو دفع أو تخزين سحابي حقيقي.
+
+## للتجربة بسرعة
+1. في phpMyAdmin أنشئ قاعدة `yemen_school_db` ثم استورد `database/ready/madrasati-ready.sql` (أو الملف المرسل مباشرة).
+2. انسخ `database/ready/.env.ready` إلى جذر المشروع باسم `.env`، وعدّل `DB_USER` و`DB_PASS` و`APP_BASE_PATH` إن لزم.
+3. افتح الموقع وادخل بالحسابات الجاهزة:
+
+| الدور | الدخول | كلمة المرور |
+|---|---|---|
+| مشغّل المنصة | `admin@example.com` | `Admin12345` |
+| مدير المدرسة | `director@demo.test` | `Demo12345` |
+| معلم | `khaled.demo@school.test` | `Demo12345` |
+| محاسب | `acc.demo@school.test` | `Demo12345` |
+| مرشدة | `counselor.demo@school.test` | `Demo12345` |
+| طالب | `d0001` | `Demo12345` |
+| ولي أمر | `0773001001` من تبويب «رمز SMS» | الرمز يظهر في `storage/logs/sms.log` |
+
+جرّبتُ هذه الحسابات كلها على نسخة مفكوكة من الحزمة، ودخلت كلها.
+
+أثناء الفحص وجدتُ أن البيانات التجريبية كانت تحفظ الهواتف بصيغة `07…` فلا يستطيع ولي الأمر الدخول برمز SMS. صحّحتُ ذلك داخل الملف التجريبي.
+
+## ما أُضيف
+
+- **قوائم بدل الكتابة:**
+  - المحافظات اليمنية، والمدينة تُقترح بحسب المحافظة.
+  - الجنسية، والوظيفة والتخصص (اختر أو اكتب)، ونوع العقد.
+  - قائمة بنوك ومحافظ يمنية في طرق الدفع.
+- **أين أنا؟** اسم المدرسة وشعارها والعام الدراسي في الشريط العلوي وفي عنوان تبويب المتصفح، مع مسار الصفحة وزر رجوع.
+- **تصميم الجوال والشاشات الكبيرة:**
+  - شريط تنقل سفلي على الجوال.
+  - الجداول تُمرَّر أفقيًا بدل أن تشوّه الصفحة.
+  - ألوان وأيقونات أحدث.
+  - لم تظهر مشاكل عرض أفقي في أحجام الجوال والتابلت والحاسوب التي فحصتها.
+- **إصلاح مهم:** كان JavaScript والتطبيق المثبّت (PWA) ينكسران إذا كان الموقع داخل مجلد فرعي مثل `/school-platform/public`، وهو وضع WAMP عندك. أُصلح هذا.
+- **إعدادات الرسائل والتحقق:**
+  - مزودون جاهزون تُملأ إعداداتهم بنقرة: Twilio وInfobip وVonage وUnifonic وMsegat وTaqnyat، وواتساب: Meta وUltraMsg وTwilio.
+  - مزودو بريد جاهزون: Gmail وOutlook وZoho وSendGrid وMailgun وBrevo وcPanel.
+  - حقول المرسل والمفتاح واسم المستخدم وكلمة المرور تُشفَّر ولا تُعرض بعد الحفظ.
+  - صفحة جديدة «رموز التحقق» تضبط صلاحية الرمز والمحاولات ونص الرسالة.
+- **بوابات الدفع:** قوالب جاهزة لـ Stripe وTap وقالبان عامان (بتوقيع أو باستعلام حالة). المحافظ اليمنية غالبًا بلا واجهة API عامة، فتبقى طريقة «إشعار التحويل» (يرسله ولي الأمر ويعتمده المحاسب) الأساس لها.
+- **النسخ الاحتياطي لكل مدرسة:**
+  - ملف ZIP فيه بيانات المدرسة فقط مع ملفاتها المرفوعة، وتشفير بكلمة مرور اختياري.
+  - تنزيل محلي أو رفع إلى أي تخزين متوافق مع S3 (AWS وCloudflare R2 وBackblaze وWasabi وDigitalOcean وMinIO).
+  - جدولة يومية أو أسبوعية وعدد نسخ محفوظة (يلزم أمر مجدول `php bin/cron-backups.php`).
+  - فحصتُ أن النسخة تُحمَّل على قاعدة جديدة بأعداد السجلات نفسها.
+- **التشغيل والتحديث:**
+  - عند التحديث: فك الحزمة الجديدة فوق القديمة مع إبقاء `.env` و`storage/`، وتُنفَّذ الترقية تلقائيًا عند أول زيارة.
+  - إذا اختفى `installed.lock` وبقي `.env` والقاعدة، يستعيده النظام ولا يطلب التثبيت.
+  - معالج التثبيت ينشئ القاعدة بنفسه، ويستنتج المسار الفرعي، ويقبل المفتاح القديم عند استرجاع تثبيت سابق، وفيه خيار «تحميل مدرسة تجريبية».
+
+## حدود
+- قوالب مزودي SMS والواتساب والبريد والدفع مبنية على وثائقهم العامة ولم تُجرَّب على حسابات حقيقية. استخدم «إرسال اختبار» وعدّل الرابط أو أسماء الحقول إن لزم.
+- استعادة نسخة مدرسة يدوية على قاعدة جديدة بنفس مفتاح `APP_ENC_KEY`، والتعليمات داخل الأرشيف (README.txt).
+- مفتاح التشفير في `.env.ready` معروف علنًا للتجربة فقط. للإنتاج ثبّت من `/install`.
+- ملف `database/ready/madrasati-ready.sql` ثابت: إذا غيّرتُ لاحقًا في البيانات التجريبية أو المخطط، أعدتُ توليده.
+
+التفاصيل في `START_AR.md` (التشغيل والتحديث)، والفصل 19 من الدليل (مع صور الشاشات الجديدة).
+
+
+
+الملف المضغوط `school-platform-v0.13.0.zip` هو المشروع كاملًا في مجلد واحد اسمه `school-platform`. فيه كل شيء، والملفات الأربعة التي أرسلتها معه منفصلةً هي نسخ مكرّرة من محتوياته. أرسلتها منفردةً لتصل إليها دون فك الضغط، لكنها أربكتك على ما يبدو.
+
+بعد فك الضغط تجد داخل المجلد الواحد:
+
+| المسار | المحتوى |
+|---|---|
+| `public/`, `app/`, `vendor/`, `storage/` | الكود والمكتبات (لا حاجة لـ Composer) |
+| `database/ready/madrasati-ready.sql` | القاعدة الجاهزة ببيانات تجريبية |
+| `database/ready/.env.ready` | ملف الإعداد الجاهز (انسخه إلى `.env`) |
+| `database/demo/` | ملفا البيانات التجريبية (للتحميل على قاعدة موجودة) |
+| `database/schema.sql` | هيكل القاعدة فارغًا |
+| `START_AR.md` | خطوات التشغيل والتحديث |
+| `docs/madrasati-user-guide.docx` | دليل المستخدم بصور الشاشات |
+
+اعتمد على الملف المضغوط فقط، وتجاهل الملفات الأخرى. الخطوات من داخل المجلد المفكوك:
+
+1. ضعه في `C:\wamp64\www\school-platform`.
+2. في phpMyAdmin: أنشئ قاعدة `yemen_school_db` ثم استورد `database/ready/madrasati-ready.sql`.
+3. انسخ `database/ready/.env.ready` إلى جذر المشروع باسم `.env`.
+4. افتح `http://localhost/school-platform/public/` وادخل بـ `admin@example.com` / `Admin12345`.
+
+إن كنت تقصد أنك تريد كل شيء مرتبًا في مجلد واحد على جهازك دون الملفات المنفردة، فأخبرني. وإن واجهتك مشكلة عند فك الضغط أو الاستيراد، أرسل لي نص الخطأ أو لقطة للشاشة.

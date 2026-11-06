@@ -1,0 +1,4 @@
+<div class="page-head"><div><h1 class="page-title">السجل الأكاديمي</h1><p class="page-sub"><?= e($t['student']['full_name']) ?> — رقم القيد <?= e($t['student']['student_no'] ?? '—') ?></p></div>
+  <div class="d-flex gap-2"><a class="btn btn-outline-primary" href="<?= url('school/students/' . (int)$t['student']['id']) ?>"><i class="bi bi-person"></i> ملف الطالب</a><a class="btn btn-primary" href="<?= url('school/students/' . (int)$t['student']['id'] . '/transcript/print') ?>" target="_blank" rel="noopener"><i class="bi bi-printer"></i> طباعة</a></div></div>
+<?= \App\Core\View::partial('transcript', ['t' => $t]) ?>
+<p class="small text-muted"><i class="bi bi-info-circle"></i> المعدل السنوي = متوسط درجات المواد عبر فصول السنة، والتراكمي = متوسط المعدلات السنوية<?= \App\Services\ResultsService::creditWeighted() ? ' (موزونة بالساعات المعتمدة)' : '' ?>. السنوات المغلقة تُعرض من لقطة مجمَّدة لا تتغير.</p>

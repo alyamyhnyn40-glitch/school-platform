@@ -1,0 +1,2 @@
+<h2 class="h4 mb-3">الإعلانات</h2><?php if (!$items): ?><div class="card-s empty-state"><i class="bi bi-megaphone"></i>لا توجد إعلانات.</div><?php endif; ?>
+<?php foreach ($items as $a): ?><div class="card-s mb-3"><div class="d-flex flex-wrap gap-2 align-items-center"><h3 class="h6 mb-0"><?= e($a['title']) ?></h3><small class="text-muted ms-auto" dir="ltr"><?= e($a['published_at']) ?></small></div><div class="mt-2" style="white-space:pre-wrap"><?= e($a['body']) ?></div><div class="small text-muted mt-1"><?= e($a['by_name']) ?></div></div><?php endforeach; ?>

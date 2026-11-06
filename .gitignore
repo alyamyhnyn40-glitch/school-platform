@@ -1,0 +1,8 @@
+.env
+/storage/logs/*
+/storage/uploads/*
+/storage/cache/*
+/storage/backups/*
+/storage/installed.lock
+*.zip
+.phpunit.cache

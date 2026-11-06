@@ -1,0 +1,5 @@
+<div class="card-s"><p class="small text-muted">الحدود قابلة للتعديل ولا توجد قيم «صحيحة» عالميًا؛ اضبطها بما يناسب مدرستكم.</p>
+<?php foreach ($ind as $i): ?><form class="row g-2 align-items-center border-bottom py-2" method="post" action="<?= url('api/v1/school/risk/indicators/' . e($i['code'])) ?>" data-ajax novalidate><?= csrf_field() ?>
+ <div class="col-md-5"><strong><?= e($i['label']) ?></strong></div><div class="col-6 col-md-3"><input class="form-control form-control-sm" name="threshold" value="<?= e($i['threshold']) ?>" aria-label="الحد"></div>
+ <div class="col-6 col-md-2"><div class="form-check"><input type="hidden" name="is_active" value="0"><input class="form-check-input" type="checkbox" name="is_active" value="1" id="a<?= e($i['code']) ?>" <?= $i['is_active'] ? 'checked' : '' ?>><label class="form-check-label" for="a<?= e($i['code']) ?>">مفعّل</label></div></div>
+ <div class="col-md-2"><button class="btn btn-sm btn-primary w-100">حفظ</button></div></form><?php endforeach; ?></div>
